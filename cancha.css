@@ -1,0 +1,65 @@
+.verde {
+	width: 750px;
+	height: 400px;
+	background-color: #8DB17E;
+	position: absolute;
+}
+
+.lineas {
+	width: 700px;
+	height: 350px;
+	border: 2px solid white;
+	position: relative;
+	top: 23px;
+	left: 23px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid white;
+    position: relative;
+    top: -200px;
+    left: 330px;
+}
+
+.arco {
+	position: relative;
+	height: 170px;
+	width: 70px;
+	border: 2px solid white;
+	left: -2px;
+	top: 90px;
+	display: inline-block;
+}
+
+.arco2 {
+    float: right;
+    height: 170px;
+    width: 70px;
+    border: 2px solid white;
+    top: 90px;
+    margin: 95px -2px;
+}
+
+.ball{
+	position: absolute;
+	z-index: 3;
+	top: 120px;
+	left: 80px;
+}
+
+.ball1{
+	position: absolute;
+	z-index: 3;
+	top: 250px;
+	right: 100px;
+}
+
+.ball2{
+	position: absolute;
+	z-index: 3;
+	top: 50px;
+	right: 350px;
+}
